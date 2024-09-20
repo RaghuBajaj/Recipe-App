@@ -1,0 +1,16 @@
+* {
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+.full1 {
+  display: flex;
+  flex-direction: column;
+  width: 94vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  z-index: 20;
+}
+.content {
+  width: 100%;
+  /* overflow: hidden; */
+}

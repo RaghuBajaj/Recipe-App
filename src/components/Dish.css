@@ -1,0 +1,132 @@
+.full_dish {
+  overflow: hidden;
+  width: 96%;
+  margin: 0;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  /* border: 1px solid red; */
+}
+.item_dish {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 84%;
+  height: 72vh;
+  display: flex;
+  border: 1px solid rgb(152, 151, 151);
+}
+.img_dish {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  object-fit: cover;
+}
+.info_dish {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.p1_dish {
+  margin: 0;
+  padding: 1%;
+  width: 100%;
+  color: red;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  /* border: 1px solid blue; */
+}
+.div_dish {
+  margin: 0;
+  padding: 3%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2%;
+  /* border: 1px solid red; */
+}
+.p_title_dish {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.p2_dish {
+  margin: 0;
+  padding: 0;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: 500;
+  color: rgb(1, 166, 1);
+  /* border: 1px solid blue; */
+}
+.p3_dish {
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+  font-family: cursive;
+  font-weight: 400;
+  /* border: 1px solid blue; */
+}
+.p4_dish {
+  margin: 0;
+  padding: 0;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: 500;
+  /* border: 1px solid blue; */
+}
+.ytb_dish {
+  margin: 0;
+  padding: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 6px;
+  border: 1px solid rgba(79, 79, 79, 0.742);
+  background-color: red;
+  color: white;
+}
+.ytb_dish:hover {
+  transform: scale(1.02);
+}
+.buttons_dish {
+  margin: 0;
+  padding: 1%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+.btn_dish {
+  margin: 0;
+  padding: 2%;
+  width: 40%;
+  border-radius: 6px;
+  color: black;
+}
+.btn_dish:hover {
+  transform: scale(1.02);
+}
+.btn1 {
+  border: 1px solid rgb(247, 194, 15);
+  background-color: rgb(249, 211, 73);
+}
+.btn2 {
+  border: 1px solid rgb(257, 174, 15);
+  background-color: rgb(252, 172, 12);
+}
